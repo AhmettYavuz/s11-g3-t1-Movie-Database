@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import MovieListItem from './MovieListItem';
-import MovieFooter from './MovieFooter';
-import FavoriteMovieList from './FavoriteMovieList';
+import MovieListItem from "./MovieListItem";
+import MovieFooter from "./MovieFooter";
+import FavoriteMovieList from "./FavoriteMovieList";
 
 const MovieList = (props) => {
   const { movies, favoriteMovies } = props;
-
+  console.log("movies :", movies);
   return (
     <div className="flex-1">
       <div className="relative overflow-x-auto shadow-md mb-4 sm:min-h-[400px] ">
@@ -24,7 +24,7 @@ const MovieList = (props) => {
           </thead>
 
           <tbody className="text-sm ">
-            {movies.map((movie) => (
+            {movies?.map((movie) => (
               <MovieListItem key={movie.id} movie={movie} />
             ))}
           </tbody>

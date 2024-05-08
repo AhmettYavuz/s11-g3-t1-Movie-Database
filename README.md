@@ -1,7 +1,7 @@
 Daha önce bir şirket için Movie Database uygulaması yapmıştın. Yeni versiyonunu hazırlamak istiyorlar. İlgili şirket ile toplantı yaparak isterleri aldın ve iş listesini çıkardın. Kolay gelsin.
 
 ADIM 1: Film Düzenleme:
-[ ] App.jsx içinde film EditMovieForm.jsx componentini yeni bir route ile ekle: /movies/edit/:id
+[x] App.jsx içinde film EditMovieForm.jsx componentini yeni bir route ile ekle: /movies/edit/:id
 [ ] EditMovieForm.jsxde idyi useParams hooku ile al.
 [ ] Component mount olduğunda ilgili filmin bilgisini apiden GET isteği ile al ve movie stateine aktar: https://nextgen-project.onrender.com/api/s11d3/movies/:id
 [ ] Düzenleme formu submit edildiğinde çalışmıyor. Gerekli api isteğini ekle: PUT https://nextgen-project.onrender.com/api/s11d3/movies/:id

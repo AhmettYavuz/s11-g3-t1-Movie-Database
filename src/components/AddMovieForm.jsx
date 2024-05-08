@@ -1,17 +1,17 @@
-import axios from 'axios';
-import { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import axios from "axios";
+import { useState } from "react";
+import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 export const AddMovieForm = (props) => {
   const history = useHistory();
   const { setMovies } = props;
 
   const [newMovie, setNewMovie] = useState({
-    title: '',
-    director: '',
-    genre: '',
+    title: "",
+    director: "",
+    genre: "",
     metascore: 0,
-    description: '',
+    description: "",
   });
 
   const handleChange = (e) => {
@@ -24,11 +24,11 @@ export const AddMovieForm = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post('https://nextgen-project.onrender.com/api/s11d3/movies/', newMovie)
+      .post("https://nextgen-project.onrender.com/api/s11d3/movies/", newMovie)
       .then((response) => {
         console.log(response.data);
         setMovies(response.data);
-        history.push('/movies');
+        history.push("/movies");
       });
   };
 
