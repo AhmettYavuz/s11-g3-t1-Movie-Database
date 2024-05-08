@@ -1,0 +1,312 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 18,
+  "numPassedTests": 0,
+  "numFailedTests": 18,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1715168043343,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde /movies/edit/:id routeu tanımlanmış",
+          "status": "failed",
+          "title": "App.jsxde /movies/edit/:id routeu tanımlanmış",
+          "duration": 16,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " EditMovieForm.jsxde useParmas hooku kullanılmış",
+          "status": "failed",
+          "title": "EditMovieForm.jsxde useParmas hooku kullanılmış",
+          "duration": 3,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Edit Movie Routeunda ilgili film datası geliyor.",
+          "status": "failed",
+          "title": "Edit Movie Routeunda ilgili film datası geliyor.",
+          "duration": 3,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
+          "status": "failed",
+          "title": "Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
+          "duration": 4,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Movie componentine sil butonu eklenmiş",
+          "status": "failed",
+          "title": "Movie componentine sil butonu eklenmiş",
+          "duration": 4,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
+          "status": "failed",
+          "title": "Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
+          "status": "failed",
+          "title": "AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
+          "duration": 4,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde /movies/add routeu tanımlanmış",
+          "status": "failed",
+          "title": "App.jsxde /movies/add routeu tanımlanmış",
+          "duration": 3,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekle butonu film ekle sayfasını açıyor.",
+          "status": "failed",
+          "title": "Yeni film ekle butonu film ekle sayfasını açıyor.",
+          "duration": 28,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
+          "status": "failed",
+          "title": "Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
+          "status": "failed",
+          "title": "Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Filmler favorilere ekleniyor.",
+          "status": "failed",
+          "title": "Filmler favorilere ekleniyor.",
+          "duration": 1,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Filmler favorilere 2. kez eklenemiyor.",
+          "status": "failed",
+          "title": "Filmler favorilere 2. kez eklenemiyor.",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film silinince favorilerden de siliniyor",
+          "status": "failed",
+          "title": "Film silinince favorilerden de siliniyor",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
+          "status": "failed",
+          "title": "DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
+          "duration": 1,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " DarkMode başlangıçta on, tıklanınca off oluyor",
+          "status": "failed",
+          "title": "DarkMode başlangıçta on, tıklanınca off oluyor",
+          "duration": 2,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
+          "status": "failed",
+          "title": "Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
+          "duration": 3,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
+          "status": "failed",
+          "title": "Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
+          "duration": 1,
+          "failureMessages": [
+            "darkMode is not defined"
+          ],
+          "location": {
+            "line": 88,
+            "column": 87
+          }
+        }
+      ],
+      "startTime": 1715168045734,
+      "endTime": 1715168045817,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-kryrnt/src/__tests__/index.test.jsx"
+    }
+  ]
+}
