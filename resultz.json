@@ -8,7 +8,7 @@
   "numFailedTests": 18,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1715168043343,
+  "startTime": 1715168217433,
   "success": false,
   "testResults": [
     {
@@ -20,13 +20,13 @@
           "fullName": " App.jsxde /movies/edit/:id routeu tanımlanmış",
           "status": "failed",
           "title": "App.jsxde /movies/edit/:id routeu tanımlanmış",
-          "duration": 16,
+          "duration": 14,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -36,13 +36,13 @@
           "fullName": " EditMovieForm.jsxde useParmas hooku kullanılmış",
           "status": "failed",
           "title": "EditMovieForm.jsxde useParmas hooku kullanılmış",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -52,13 +52,13 @@
           "fullName": " Edit Movie Routeunda ilgili film datası geliyor.",
           "status": "failed",
           "title": "Edit Movie Routeunda ilgili film datası geliyor.",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -68,13 +68,13 @@
           "fullName": " Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
           "status": "failed",
           "title": "Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
-          "duration": 4,
+          "duration": 2,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -84,13 +84,13 @@
           "fullName": " Movie componentine sil butonu eklenmiş",
           "status": "failed",
           "title": "Movie componentine sil butonu eklenmiş",
-          "duration": 4,
+          "duration": 3,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -105,8 +105,8 @@
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -116,13 +116,13 @@
           "fullName": " AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
           "status": "failed",
           "title": "AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
-          "duration": 4,
+          "duration": 1,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -132,13 +132,13 @@
           "fullName": " App.jsxde /movies/add routeu tanımlanmış",
           "status": "failed",
           "title": "App.jsxde /movies/add routeu tanımlanmış",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -148,13 +148,13 @@
           "fullName": " Yeni film ekle butonu film ekle sayfasını açıyor.",
           "status": "failed",
           "title": "Yeni film ekle butonu film ekle sayfasını açıyor.",
-          "duration": 28,
+          "duration": 3,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -169,8 +169,8 @@
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -185,8 +185,8 @@
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -196,13 +196,13 @@
           "fullName": " Filmler favorilere ekleniyor.",
           "status": "failed",
           "title": "Filmler favorilere ekleniyor.",
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -212,13 +212,13 @@
           "fullName": " Filmler favorilere 2. kez eklenemiyor.",
           "status": "failed",
           "title": "Filmler favorilere 2. kez eklenemiyor.",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -228,13 +228,13 @@
           "fullName": " Film silinince favorilerden de siliniyor",
           "status": "failed",
           "title": "Film silinince favorilerden de siliniyor",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -249,8 +249,8 @@
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -260,13 +260,13 @@
           "fullName": " DarkMode başlangıçta on, tıklanınca off oluyor",
           "status": "failed",
           "title": "DarkMode başlangıçta on, tıklanınca off oluyor",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -276,13 +276,13 @@
           "fullName": " Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
           "status": "failed",
           "title": "Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
-          "duration": 3,
+          "duration": 1,
           "failureMessages": [
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         },
         {
@@ -297,16 +297,16 @@
             "darkMode is not defined"
           ],
           "location": {
-            "line": 88,
-            "column": 87
+            "line": 51,
+            "column": 30
           }
         }
       ],
-      "startTime": 1715168045734,
-      "endTime": 1715168045817,
+      "startTime": 1715168218216,
+      "endTime": 1715168218259,
       "status": "failed",
       "message": "",
-      "name": "/home/projects/vitejs-vite-kryrnt/src/__tests__/index.test.jsx"
+      "name": "/Users/ahmet/Documents/GitHub/projects/s11-g3-t1-Movie-Database/src/__tests__/index.test.jsx"
     }
   ]
 }
