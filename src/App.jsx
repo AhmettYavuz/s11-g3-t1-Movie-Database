@@ -10,33 +10,41 @@ import axios from "axios";
 import useLocalStorage from "./hooks/useLocalStorage";
 import useAxios from "./hooks/useAxios";
 import { AddMovieForm } from "./components/AddMovieForm";
+import { data } from "autoprefixer";
 
 const App = (props) => {
-  const [movies, setMovies] = useState([]);
+  //const [movies, setMovies] = useState([]);
   const [favoriteMovies, setFavMovies] = useState([]);
   const [darkMode, setDarkMode] = useLocalStorage("s11d3", true);
 
-  const { data, sendRequest, METHODS } = useAxios({ initialData: movies });
+  const {
+    data: movies,
+    setData: setMovies,
+    sendRequest,
+    METHODS,
+  } = useAxios({ initialData: [] });
+
+  const fetchMovies = () => {
+    const method = METHODS.GET;
+    sendRequest({ url: "/movies", method });
+  };
 
   useEffect(() => {
     // console.log("movie liest did mount");
-    axios
-      .get("https://nextgen-project.onrender.com/api/s11d3/movies")
-      .then((res) => {
-        setMovies(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    fetchMovies();
   }, []);
 
   const deleteMovie = (id) => {
-    const url = `https://nextgen-project.onrender.com/api/s11d3/movies/${id}`;
     const method = METHODS.DELETE;
-    sendRequest({ url, method, redirect: `/movies` });
-    console.log("moviese giren data ", data);
-    setMovies(movies?.filter((item) => item.id != id));
-    setFavMovies(favoriteMovies?.filter((item) => item.id != id));
+    sendRequest({
+      url: `/movies/${id}`,
+      method,
+      redirect: `/movies`,
+      callbackSuccess: () => {
+        setMovies(movies?.filter((item) => item.id != id));
+        setFavMovies(favoriteMovies?.filter((item) => item.id != id));
+      },
+    });
   };
 
   const toggle = () => {
@@ -81,7 +89,7 @@ const App = (props) => {
           <FavoriteMovieList favoriteMovies={favoriteMovies} />
           <Switch>
             <Route exact path="/movies/add">
-              <AddMovieForm setMovies={setMovies} />
+              <AddMovieForm setMovies={setMovies} reFetch={fetchMovies} />
             </Route>
             <Route exact path="/movies/:id">
               <Movie
@@ -90,7 +98,7 @@ const App = (props) => {
               />
             </Route>
             <Route path="/movies/edit/:id">
-              <EditMovieForm setMovies={setMovies} />
+              <EditMovieForm reFetch={fetchMovies} />
             </Route>
             <Route exact path="/movies">
               <MovieList movies={movies} />

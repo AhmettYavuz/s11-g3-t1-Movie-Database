@@ -9,10 +9,10 @@ export const METHODS = {
   DELETE: "delete",
 };
 
-export default function useAxios(
+export default function useAxios({
   initialData,
-  baseURL = "https://nextgen-project.onrender.com/api/s11d3"
-) {
+  baseURL = "https://nextgen-project.onrender.com/api/s11d3",
+}) {
   const [data, setData] = useState(initialData);
 
   const [error, setError] = useState(null);
@@ -25,7 +25,7 @@ export default function useAxios(
     headers: { authentication: "foobar" },
   });
 
-  const sendRequest = ({
+  const sendRequest = async ({
     url,
     method,
     data = null,
@@ -45,7 +45,7 @@ export default function useAxios(
       "sendRequest: ",
       loading
     );
-    instance[method](url, data === null ? null : data)
+    await instance[method](url, data === null ? null : data)
       .then(function (response) {
         setData(response.data);
         setLoading(false);
@@ -60,6 +60,7 @@ export default function useAxios(
         setError(error.message);
         setLoading(false);
       });
+    return;
   };
 
   return { data, sendRequest, setData, error, loading, METHODS };

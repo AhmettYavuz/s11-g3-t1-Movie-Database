@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import useAxios from "../hooks/useAxios";
 
 const EditMovieForm = (props) => {
-  const { setMovies } = props;
+  const { reFetch } = props;
   const [movie, setMovie] = useState({
     title: "",
     director: "",
@@ -17,11 +17,10 @@ const EditMovieForm = (props) => {
 
   const { id } = useParams();
 
-  const url = `https://nextgen-project.onrender.com/api/s11d3/movies/${id}`;
+  const url = `/movies/${id}`;
 
   const { data, sendRequest, setData, error, loading, METHODS } = useAxios({
     initialData: movie,
-    baseURL: url,
   });
 
   useEffect(() => {
@@ -34,7 +33,9 @@ const EditMovieForm = (props) => {
 
   useEffect(() => {
     console.log("data güncellendi:", data);
-    if (data.title) setMovie({ ...data });
+    if (data.title) {
+      setMovie({ ...data });
+    }
   }, [data]);
 
   //console.log(movie);
@@ -45,15 +46,22 @@ const EditMovieForm = (props) => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const method = METHODS.PUT;
     console.log(movie);
-    sendRequest({ url, method, data: movie, redirect: `/movies/${id}` });
+    await sendRequest({
+      url,
+      method,
+      data: movie,
+      redirect: `/movies/${id}`,
+      //callbackSuccess: () => props.reFetch(),
+    });
     console.log("submit edildi", movie);
     console.log("submit edildi data", data);
-    setMovies(data);
+    props.reFetch();
+    //setMovies(data);
     //setMovies([...data]);
   };
 

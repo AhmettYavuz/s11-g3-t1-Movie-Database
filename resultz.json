@@ -20,7 +20,7 @@
           "fullName": " App.jsxde /movies/edit/:id routeu tanımlanmış",
           "status": "passed",
           "title": "App.jsxde /movies/edit/:id routeu tanımlanmış",
-          "duration": 37,
+          "duration": 36,
           "failureMessages": []
         },
         {
@@ -40,7 +40,7 @@
           "fullName": " Edit Movie Routeunda ilgili film datası geliyor.",
           "status": "passed",
           "title": "Edit Movie Routeunda ilgili film datası geliyor.",
-          "duration": 110,
+          "duration": 108,
           "failureMessages": []
         },
         {
@@ -50,7 +50,7 @@
           "fullName": " Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
           "status": "passed",
           "title": "Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
-          "duration": 90,
+          "duration": 80,
           "failureMessages": []
         },
         {
@@ -60,7 +60,7 @@
           "fullName": " Movie componentine sil butonu eklenmiş",
           "status": "passed",
           "title": "Movie componentine sil butonu eklenmiş",
-          "duration": 54,
+          "duration": 40,
           "failureMessages": []
         },
         {
@@ -70,7 +70,7 @@
           "fullName": " Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
           "status": "passed",
           "title": "Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
-          "duration": 56,
+          "duration": 54,
           "failureMessages": []
         },
         {
@@ -80,7 +80,7 @@
           "fullName": " AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
           "status": "passed",
           "title": "AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
-          "duration": 5,
+          "duration": 7,
           "failureMessages": []
         },
         {
@@ -90,7 +90,7 @@
           "fullName": " App.jsxde /movies/add routeu tanımlanmış",
           "status": "passed",
           "title": "App.jsxde /movies/add routeu tanımlanmış",
-          "duration": 3,
+          "duration": 4,
           "failureMessages": []
         },
         {
@@ -100,7 +100,7 @@
           "fullName": " Yeni film ekle butonu film ekle sayfasını açıyor.",
           "status": "passed",
           "title": "Yeni film ekle butonu film ekle sayfasını açıyor.",
-          "duration": 19,
+          "duration": 30,
           "failureMessages": []
         },
         {
@@ -110,7 +110,7 @@
           "fullName": " Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
           "status": "passed",
           "title": "Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
-          "duration": 26,
+          "duration": 38,
           "failureMessages": []
         },
         {
@@ -120,7 +120,7 @@
           "fullName": " Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
           "status": "passed",
           "title": "Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
-          "duration": 191,
+          "duration": 195,
           "failureMessages": []
         },
         {
@@ -130,7 +130,7 @@
           "fullName": " Filmler favorilere ekleniyor.",
           "status": "passed",
           "title": "Filmler favorilere ekleniyor.",
-          "duration": 47,
+          "duration": 49,
           "failureMessages": []
         },
         {
@@ -140,7 +140,7 @@
           "fullName": " Filmler favorilere 2. kez eklenemiyor.",
           "status": "passed",
           "title": "Filmler favorilere 2. kez eklenemiyor.",
-          "duration": 58,
+          "duration": 51,
           "failureMessages": []
         },
         {
@@ -150,7 +150,7 @@
           "fullName": " Film silinince favorilerden de siliniyor",
           "status": "passed",
           "title": "Film silinince favorilerden de siliniyor",
-          "duration": 59,
+          "duration": 65,
           "failureMessages": []
         },
         {
@@ -160,7 +160,7 @@
           "fullName": " DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
           "status": "passed",
           "title": "DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
-          "duration": 4,
+          "duration": 6,
           "failureMessages": []
         },
         {
@@ -170,7 +170,7 @@
           "fullName": " DarkMode başlangıçta on, tıklanınca off oluyor",
           "status": "passed",
           "title": "DarkMode başlangıçta on, tıklanınca off oluyor",
-          "duration": 16,
+          "duration": 20,
           "failureMessages": []
         },
         {
@@ -180,7 +180,7 @@
           "fullName": " Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
           "status": "passed",
           "title": "Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
-          "duration": 17,
+          "duration": 20,
           "failureMessages": []
         },
         {
@@ -190,12 +190,12 @@
           "fullName": " Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
           "status": "passed",
           "title": "Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
-          "duration": 15,
+          "duration": 24,
           "failureMessages": []
         }
       ],
-      "startTime": 1715206891449,
-      "endTime": 1715206892269,
+      "startTime": 1715240669232,
+      "endTime": 1715240670072,
       "status": "passed",
       "message": "",
       "name": "/Users/ahmet/Documents/GitHub/projects/s11-g3-t1-Movie-Database/src/__tests__/index.test.jsx"

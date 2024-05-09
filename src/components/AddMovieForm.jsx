@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 export const AddMovieForm = (props) => {
   const history = useHistory();
-  const { setMovies } = props;
+  const { setMovies, reFetch } = props;
 
   const [newMovie, setNewMovie] = useState({
     title: "",
@@ -28,6 +28,7 @@ export const AddMovieForm = (props) => {
       .then((response) => {
         console.log(response.data);
         setMovies(response.data);
+        props.reFetch();
         history.push("/movies");
       });
   };
